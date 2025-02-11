@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section{
+    height: 100vh;
+    padding: 10px 40px;
+    font-size: 1.6rem;
+    color: rgb(112, 128, 144);
+}
+.top-content h1{
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: slategray;
+}
+section h2{
+    font-size:  2rem;
+   color: rgba(112, 128, 144, 0.63);
+}
+section .top-content{
+    border-bottom: 2px solid rgb(133, 169, 216);
+}
+section .center-content{
+    margin-top: 3%;
+}
+.center-content .bio-content{
+    margin-top: 1%;
+}
+.skills-content{
+    margin-top: 1%;
+}
+.skills-content ul{
+    list-style-type: none;
+}
+.bContent{
+    padding: 0px 30px;
+    border-left: 2px solid;
+}
+.bottom-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 390px) {
+  .top-content h1{
+    font-size: 2.2rem;
+  }
+  section h2{
+    font-size: 500;
+    font-size: 1.7rem;
+  }
+  section{
+    padding: 8px 15px;
+    font-size: 1.2rem;
+  }
+  .bottom-content{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .bContent{
+    /* border-top: 2px solid; */
+    padding: 8px 0px 8px 0px;
+    border-left: none;
+  }   
+}
